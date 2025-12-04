@@ -144,7 +144,6 @@ public class ArvoreSplay {
             pai.direita = novoNo;
         }
 
-        // Splay no novo nó
         splay(novoNo);
     }
 
