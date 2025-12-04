@@ -98,7 +98,6 @@ public class ArvoreSplay {
         }
     }
 
-    // Busca na árvore Splay
     public NoSplay buscar(int valor) {
         NoSplay no = buscarNo(raiz, valor);
         if (no != null) {
