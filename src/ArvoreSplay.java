@@ -86,7 +86,7 @@ public class ArvoreSplay {
                 rotacaoEsquerda(no.pai.pai);
                 rotacaoEsquerda(no.pai);
             }
-            // Caso 3: zig-zag ou zag-zig
+            // zig-zag ou zag-zig
             else if (no.pai.esquerda == no &&
                     no.pai.pai.direita == no.pai) {
                 rotacaoDireita(no.pai);
@@ -143,7 +143,6 @@ public class ArvoreSplay {
         } else {
             pai.direita = novoNo;
         }
-
         splay(novoNo);
     }
 
